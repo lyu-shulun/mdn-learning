@@ -8,17 +8,6 @@ There are many applications basing on the Internet:
 * Instant messaging, Internet forums, and social networking.
 * Online shopping.
 
-## 1. World Wide Web (WWW, The Web)
-
-
-## 2. HTTP
-
-
-## 3. Browsers
-
-
-## 4. DNS & Domain name
-
 
 ## x. Q&A
 
@@ -72,10 +61,3 @@ As user data is processed through the protocol stack, each abstraction layer add
 
 Conceptual data flow in a simple network topology of two hosts (A and B) connected by a link between their respective routers. The application on each host executes read and write operations as if the processes were directly connected to each other by so0me kind of data pipe.  
 After establishment of this pipe, most details of the communication are hidden from each process, as the underlying principles of communication are implemented in the lower protocol layers. In analogy, at the transport layer the communication appears as host-to-host, without knowledge of the application data structures and the connecting routers, while at the internetworking layer, individual network boundaries are traversed at each other.
-
-
-### x.7 DNS analogy
-
-![](assets/images/DNS-analogy.png)
-
-A DNS resolver sonsults three name servers to resolve the domain name user-visible "www.wikipedia.org" to determine the IPv4 address 207.142.131.234.
