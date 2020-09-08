@@ -2,6 +2,7 @@
 
 
 
+
 ## Q&A
 
 ### 1. IPv4, IPv6
@@ -44,3 +45,5 @@
 ### 5. User data transfer via the Internet
 
 ![](../assets/images/user-data-transfer-via-the-internet.png)
+
+As user data is processed through the protocol stack, each abstraction layer adds encapsulation information at the sending host. Data is transmitted over the wire at the link level between hosts and routers. Encapsulation is removed by the receiving host. Intermediate relays update link encapsulation at each hop, and inspect the IP layer for routing purposes.
